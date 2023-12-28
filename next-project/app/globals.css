@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.navbar{
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-right: 50px;
+  text-decoration: none;
+}
