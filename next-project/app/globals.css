@@ -3,13 +3,45 @@ body{
   padding: 0;
   background-color: white;
 }
-
+.root{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
 .navbar{
   background-color: aliceblue;
   padding: 20px;
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
 }
 
 .navbar a {
   margin-right: 50px;
   text-decoration: none;
+}
+
+.bangg{
+  width: 100vw;
+  height: 80vh;
+  margin-top: 20vh;
+  background-color: bisque;
+  display: flex;
+}
+.home{
+  width: 10vw;
+  height: 10vh;
+  background-color: azure;
+}
+.box{
+  width: 30vw;
+  height: 30vh;
+  margin: 5vw;
+  background-color: aquamarine;
+
+}
+
+.list{
+  font-size: 4rem;
 }
